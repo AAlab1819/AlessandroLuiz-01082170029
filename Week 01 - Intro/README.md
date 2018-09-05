@@ -14,7 +14,7 @@ then the output is '5 7'.
 
 
 ## 912A: Tricky Alchemy
-[**Problems**](https://codeforces.com/problemset/problem/912/A) || [**Solution**] (https://codeforces.com/contest/912/submission/42313680)\
+[**Problems**](https://codeforces.com/problemset/problem/912/A) || [**Solution**](https://codeforces.com/contest/912/submission/42313680)\
 This problems is asking us to help Grisha to make a Yellow ball, Green ball, and Blue ball from Yellow Crystal and Blue Crystal.\
 It's known that to produce a Yellow ball one needs 2 Yellow Crystals, Green ball 1 Yellow Crystal and 1 Blue Crystal, and for a Blue ball, 3 Blue Crystals are enough.\
 Right now there are A yellow and B blue crystals in Grisha's disposal. Find out how many additional crystals he should acquire in order to produce the required number of balls.\
@@ -32,5 +32,5 @@ The student can be divided if in the input the students don't have any distinct 
 In the code we need to use vector to save the number of array.
 In the first for statement we use scores.input to check make a checker that will used in the next statement.
 It is written that if scores.size()<k it will output "NO", in this line the code will check whter the size of the score is less then the amount of the member in the team or not.
-If it was less then k , it will ouput "NO". If the result is larger, it will push the data to the result vector and will be ouput.\
+If it was less then k , it will ouput "NO". If the result is larger, it will push the data to the result vector and will be ouput.
 
