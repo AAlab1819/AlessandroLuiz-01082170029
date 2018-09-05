@@ -1,6 +1,6 @@
 # Week 01
 
-### 854A: Fraction 
+## 854A: Fraction 
 [**Problem**](https://codeforces.com/problemset/problem/854/A) || [**Solution**](https://codeforces.com/contest/854/submission/42496198)\
 This problem is asking us to find the highest possible fraction that cannot be simplified.
 Also We need to find the numerator and denominator. The denominator must be smaller than the numerator but we need to find the largest denominator that can be resulted.\
@@ -13,24 +13,16 @@ the input number = 12 (input there is an integer n (3 ≤ n ≤ 1000), t
 then the output is '5 7'.
 
 
-### 912A: Tricky Alchemy
+## 912A: Tricky Alchemy
 [**Problems**](https://codeforces.com/problemset/problem/912/A) || [**Solution**] (https://codeforces.com/contest/912/submission/42313680)\
 This problems is asking us to help Grisha to make a Yellow ball, Green ball, and Blue ball from Yellow Crystal and Blue Crystal.\
 It's known that to produce a Yellow ball one needs 2 Yellow Crystals, Green ball 1 Yellow Crystal and 1 Blue Crystal, and for a Blue ball, 3 Blue Crystals are enough.\
 Right now there are A yellow and B blue crystals in Grisha's disposal. Find out how many additional crystals he should acquire in order to produce the required number of balls.\
 
-##Input
-The First line features two integers A and B (0 ≤ A, B ≤ 10^9), denoting the number of Yellow Crystal and Blue Crystals respectively at Grisha's disposal.\
-The next line contains three integers x, y and z (0 ≤ x, y, z ≤ 10^9) the respective amounts of Yellow balls, Green balls and Blue balls to be obtained.\
+This is a calculatin:\
+    YellowCrystal =  YellowCrystal - YellowBall*2 -GreenBall;
+    BlueCrystal = BlueCrystal - BlueBall*3 - GreenBall;
 
-## Ouput
-Print a single integer — the minimum number of crystals that Grisha should acquire in addition.\
-
-Example:\
-4 3 
-2 1 1
-The output is:\
-2
 
 
 ## 988A: Diverse Team
