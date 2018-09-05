@@ -19,9 +19,9 @@ This problems is asking us to help Grisha to make a Yellow ball, Green ball, and
 It's known that to produce a Yellow ball one needs 2 Yellow Crystals, Green ball 1 Yellow Crystal and 1 Blue Crystal, and for a Blue ball, 3 Blue Crystals are enough.\
 Right now there are A yellow and B blue crystals in Grisha's disposal. Find out how many additional crystals he should acquire in order to produce the required number of balls.\
 
-This is a calculatin:\
-    YellowCrystal =  YellowCrystal - YellowBall*2 -GreenBall;\
-    BlueCrystal = BlueCrystal - BlueBall*3 - GreenBall;
+This is a calculation:\
+    YellowCrystal =  YellowCrystal - YellowBall x 2 -GreenBall;\
+    BlueCrystal = BlueCrystal - BlueBall x 3 - GreenBall;
 
 
 
