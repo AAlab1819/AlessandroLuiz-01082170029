@@ -1,0 +1,69 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void Gnomesort(int arr[], int ar[], int n)
+{
+    int index = 0;
+
+    while (index < n)
+        {
+            if (index == 0)
+                index++;
+            if (arr[index] >= arr[index - 1])
+                index++;
+            else
+            {
+                swap(arr[index], arr[index - 1]);
+                swap(ar[index], ar[index-1]);
+                index--;
+            }
+        }
+}
+
+int main()
+{
+    int kirito, dragon;
+    cin>>kirito>>dragon;
+
+    int counter=0;
+    int DragonStr[dragon], BnsStrgth[dragon];
+    for(int i=0; i<dragon; i++)
+    {
+        cin>>DragonStr[i]>>BnsStrgth[i];
+    }
+    Gnomesort(DragonStr, BnsStrgth, dragon);
+    for( int i=0; i<dragon; i++)
+    {
+
+        if(kirito>DragonStr[i]&&i==0)
+        {
+            counter+=kirito+BnsStrgth[i];
+            //cout<<"k"<<power<<"d"<<powerk[i]<<endl;
+
+        }
+        else if ( counter>DragonStr[i])
+        {
+            counter+=BnsStrgth[i];
+            //cout<<"k"<<counter<<"d"<<powerk[i]<<endl;
+        }
+        else if( counter<DragonStr[i])
+        {
+            counter=0;
+            //cout<<"k"<<counter<<"d"<<powerk[i]<<endl;
+            break;
+        }
+        else if (counter==DragonStr[i])
+        {
+            counter=0;
+            break;
+        }
+
+    }
+    if( counter>0)
+        cout<<"YES"<<endl;
+    else
+        cout<<"NO"<<endl;
+
+    return 0;
+}
