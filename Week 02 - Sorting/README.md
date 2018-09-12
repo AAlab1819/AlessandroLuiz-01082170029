@@ -6,11 +6,11 @@ This problem is asking us to help kirito If Kirito starts duelling with the i-th
 But if Kirito's strength is greater than the dragon's strength, then he defeats the dragon and gets a bonus strength increase by yi.
 Kirito can fight the dragons in any order. Determine whether he can move on to the next level of the game, that is, defeat all dragons without a single loss.
 
-**Input**
+**Input**<br>
 The first line contains two space-separated integers s and n (1 ≤ s ≤ 10^4, 1 ≤ n ≤ 103). 
 Then n lines follow: the i-th line contains space-separated integers xi and yi (1 ≤ xi ≤ 104, 0 ≤ yi ≤ 104) — the i-th dragon's strength and the bonus for defeating it.
 
-**Output**
+**Output**<br>
 On a single line print "YES" (without the quotes), if Kirito can move on to the next level and print "NO" (without the quotes), if he can't.
 
 
@@ -23,13 +23,13 @@ Also, Spyke conferences aren't permitted — that is, one call connects exactly 
 So in this problem  i use shell sort to solve this problem.
 Don't forget to check the next-next secretary (for instance, check Secretary[0], Secretary[1], and Secretary[2]) in order to check if the situation is impossible.
 
-**Input**
+**Input**<br>
 The first line contains integer n (1 ≤ n ≤ 10^3) — the number of secretaries in Polycarpus's corporation. 
 The next line contains n space-separated integers: id1, id2, ..., idn (0 ≤ idi ≤ 10^9). 
 Number id i equals the number of the call session of the i-th secretary, if the secretary is talking via Spyke, or zero otherwise.
 Consider the secretaries indexed from 1 to n in some way.
 
-**Output**
+**Output**<br>
 Print a single integer — the number of pairs of chatting secretaries, or -1 if Polycarpus's got a mistake in his records and the described situation could not have taken place.
 
 
@@ -40,9 +40,9 @@ This time he has n stewards with him whom he has to provide support.
 Each steward has his own strength. 
 Jon Snow likes to support a steward only if there exists at least one steward who has strength strictly less than him and at least one steward who has strength strictly greater than him.
 
-**Input**
+**Input**<br>
 First line consists of a single integer n (1 ≤ n ≤ 10^5) — the number of stewards with Jon Snow.
 Second line consists of n space separated integers a1, a2, ..., an (0 ≤ ai ≤ 10^9) representing the values assigned to the stewards.
 
-**Output**
+**Output**<br>
 Output a single integer representing the number of stewards which Jon will feed.
