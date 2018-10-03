@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    //Declare the variables
+    int Reqname;
+    string name;
+    map<string,int>checker;
+    cin>>Reqname;
+    //Input the i-th name
+    for(int i=0;i<Reqname;i++)
+    {
+        cin>>name;
+        //check then name 
+        if (checker[name] == 0)
+        {
+            checker[name] = 1;
+            cout << "OK" << endl;
+        }
+        //if the name is duplicate
+        else
+        {
+            cout << name << checker[name] << endl;
+            checker[name] += 1;
+        }
+    }
+    return 0;
+}
