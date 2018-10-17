@@ -1,7 +1,7 @@
 # Week 06
 
 ## Find the Running Median
-[**Problems**](https://www.hackerrank.com/challenges/ctci-find-the-running-median/problem) || [**Solution**](check file FindTheRunningMedian.cpp in file week 06 )\
+[**Problems**](https://www.hackerrank.com/challenges/ctci-find-the-running-median/problem) || **Solution** = check file FindTheRunningMedian.cpp in file week 06\
 This problems is asking us to find the median in inputed list or tree. First we need to sorted the inputed list with heapsort 
 and then we can search the median of the inputed list.
 
