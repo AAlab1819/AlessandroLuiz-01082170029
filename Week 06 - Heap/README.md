@@ -7,9 +7,9 @@ and then we can search the median of the inputed list.
 
 {6,5,4}
 
-First input is {6}, the output will be 6 because there is no other number in the list.
-Second input is {5,6}, the output will be 5.5 because (6+5)/2= 5.5.
-Third input is{4,5,6}, the output will be 5, because 5 is the median of the list
+First input is {6}, the output will be 6 because there is no other number in the list.\
+Second input is {5,6}, the output will be 5.5 because (6+5)/2= 5.5.\
+Third input is{4,5,6}, the output will be 5, because 5 is the median of the list.\
 
 **Complexity**<br>
 O(nlogn)
